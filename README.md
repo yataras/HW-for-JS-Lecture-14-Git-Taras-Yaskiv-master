@@ -63,4 +63,19 @@ git cherry-pick <code of commit>
 
 git push origin master
 
- 
+
+# 3.
+
+$ git commit -am "Typo"
+
+$ git push
+
+$ # Realize you had a typo, so push again but send HEAD^ upstream 
+
+$ # ( HEAD^ means the HEAD at the previous commit )
+
+$ git push -f origin HEAD^:master
+
+$ git commit --amend -m "Fixed Typo"
+
+$ git push # No pull or merge needed
