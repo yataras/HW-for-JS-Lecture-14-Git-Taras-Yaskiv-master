@@ -1,7 +1,7 @@
 # HW-for-JS-Lecture-14-Git-Taras-Yaskiv
 testing new project in github
 
-0.	
+0. 
 
 Commits:
 
@@ -34,7 +34,7 @@ Action with branches:
 2) Removing branch develop-feature2 locally and from the server.
 
 
-1.	
+1.
 
 Commands:
 
