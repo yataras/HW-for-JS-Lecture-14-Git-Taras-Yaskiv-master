@@ -20,5 +20,6 @@ Action with branches:
 
 1.	
 Commands:
-1)	$ git log --pretty=format:"%s [%an]" --since=10.hour.ago --branches=develop-feature1\ sort -r
+1)	$ git log --pretty=format:"%s [%an]" --since=10.hour.ago --branches=develop-feature1\ sort -
+
 2)	$ git log --pretty=format:"%s [%an] %cd" --branches=master\|develop --grep="05:"
