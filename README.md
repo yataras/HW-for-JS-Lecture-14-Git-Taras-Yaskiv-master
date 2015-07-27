@@ -41,3 +41,26 @@ Commands:
 1)	$ git log --pretty=format:"%s [%an]" --since=3.hour.ago --branches=develop-feature1\ sort -r
 
 2)	$ git log --pretty=format:"%s [%an] %cd" --branches=master\|develop --grep="05:"
+
+
+# 2.
+
+*git cherry-pick* помогает применить один-единственный коммит из одной ветки к дереву другой.
+
+Для этого нужно выписать ветку, в которую будем вливать коммит:
+
+git checkout master
+
+Обновить ее:
+
+git pull origin master
+
+Выполнить команду, указать код коммита:
+
+git cherry-pick <code of commit>
+
+После этого обновить ветку на сервере:
+
+git push origin master
+
+ 
